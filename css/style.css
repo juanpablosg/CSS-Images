@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Start of Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* End of Reset */
+
+/* Start of Utility classes */
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+/* End of Utility classes */
+
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+
+    background-color: bisque;
+    background-image: url(../img/map-2176x1451.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.hero {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    background-color: hsla(0, 0%, 0%, 0.35);
+}
+
+.profile-pic-figure {
+    width: 35%;
+
+}
+
+.profile-pic-figure img {
+    border: 5px double #333;
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border-radius: 50%;
+}
+
+.h1 {
+    font-size: 500%;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px #000;
+    
+    /* background-color: hsla(0, 0%, 0%, 0.368);
+    padding: 0.25rem;
+    border-radius: 10px; */
+}
+
+
